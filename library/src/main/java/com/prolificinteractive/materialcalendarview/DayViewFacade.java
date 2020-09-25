@@ -13,8 +13,8 @@ public class DayViewFacade {
 
   private boolean isDecorated;
 
-  private Drawable backgroundDrawable = null;
-  private Drawable selectionDrawable = null;
+  public Drawable backgroundDrawable = null;
+  public Drawable selectionDrawable = null;
   private final LinkedList<Span> spans = new LinkedList<>();
   private boolean daysDisabled = false;
 
